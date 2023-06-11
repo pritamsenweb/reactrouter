@@ -7,6 +7,13 @@
   pointer-events: none;
 }
 
+a.active_class{
+  color: blue;
+  border-bottom: 2px;
+  font-weight: 700;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
